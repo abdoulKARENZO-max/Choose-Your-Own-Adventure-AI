@@ -1,10 +1,10 @@
-# 🎮 Choose Your Own Adventure AI
+ 🎮 Choose Your Own Adventure AI
 
 A full-stack AI-powered interactive storytelling app built with **FastAPI**, **Python**, and **React**. Users enter a theme and the AI generates a branching narrative — demonstrating end-to-end product engineering across backend, database, and frontend layers.
 
 ---
 
-## 🚀 Tech Stack
+ 🚀 Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -15,8 +15,7 @@ A full-stack AI-powered interactive storytelling app built with **FastAPI**, **P
 | Deployment | Choreo (free tier) |
 
 ---
-
-## ✨ Features
+ ✨ Features
 
 - **AI Story Generation** — dynamic branching narratives via LLM integration
 - **RESTful API Design** — structured routers, Pydantic schemas, and clean separation of concerns
@@ -27,10 +26,10 @@ A full-stack AI-powered interactive storytelling app built with **FastAPI**, **P
 
 ---
 
-## 🛠 Setup
+ 🛠 Setup
 
 ```bash
-# Backend
+ Backend
 uv venv && uv pip install -r requirements.txt
 uvicorn main:app --reload
 
