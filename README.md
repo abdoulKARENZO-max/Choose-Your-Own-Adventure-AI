@@ -1,64 +1,41 @@
- 🎮 Choose Your Own Adventure AI
+ Choose Your Own Adventure AI 🧭
 
-A full-stack AI-powered interactive storytelling app built with **FastAPI**, **Python**, and **React**. Users enter a theme and the AI generates a branching narrative — demonstrating end-to-end product engineering across backend, database, and frontend layers.
+An AI-powered interactive storytelling web app built with **FastAPI**, **Python**, and **React** — demonstrating real-world full-stack development skills sought by modern employers.
 
 ---
 
- 🚀 Tech Stack
+ 🚀 What This Project Solves
+
+Traditional learning projects produce static, throwaway apps. This project mirrors the exact workflow used at tech companies:
+
+- **AI Integration** — Connects to a live LLM API to dynamically generate branching story content, showing you can wire AI services into production backends
+- **RESTful API Design** — Cleanly structured FastAPI endpoints with proper routing, request validation, and error handling — skills directly transferable to any backend role
+- **Database Persistence** — Stores user sessions and story progress using SQLAlchemy models and schemas, reflecting real data-layer responsibilities
+- **Frontend–Backend Communication** — React frontend consumes a Python API with async calls, environment configs, and state management — the full loop every employer expects
+- **Environment & Config Management** — Follows industry best practices for secrets and `.env` separation, a common gap in junior portfolios
+- **Free Cloud Deployment via Choreo** — Ships a live, shareable URL — turning a portfolio piece into a demonstrable product
+
+---
+
+ 🛠 Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
-| Backend | Python · FastAPI · SQLAlchemy |
-| AI | Anthropic / OpenAI API |
-| Frontend | React · React Router Dom |
-| Database | SQLite / PostgreSQL |
+|---|---|
+| Backend | Python, FastAPI, SQLAlchemy |
+| Frontend | JavaScript, React, React Router |
+| AI | LLM API (story generation) |
 | Deployment | Choreo (free tier) |
 
 ---
- ✨ Features
 
-- **AI Story Generation** — dynamic branching narratives via LLM integration
-- **RESTful API Design** — structured routers, Pydantic schemas, and clean separation of concerns
-- **Persistent Storage** — database models with full CRUD via SQLAlchemy ORM
-- **Component-Based UI** — reusable React components with client-side routing
-- **Environment Config** — secure secrets management with `.env` and config modules
-- **Free Cloud Deployment** — live demo hosted on Choreo
-
----
-
- 🛠 Setup
+ 📦 Getting Started
 
 ```bash
  Backend
-uv venv && uv pip install -r requirements.txt
-uvicorn main:app --reload
+uv run main.py
 
-# Frontend
+ Frontend
 npm install && npm run dev
 ```
 
-Add your API key to `.env`:
-```
-AI_API_KEY=your_key_here
-```
-
----
-
-## 📁 Project Structure
-
-```
-backend/   → FastAPI app · routers · models · schemas
-frontend/  → React components · pages · styles
-```
-
----
-
-## 🌐 Live Demo
-
-Deployed via [Choreo](https://choreo.dev) — view the live app [here](#).
-
----
-
-## 📄 License
-
-MIT
+> Source code: [github.com/techwithtim/Choose-Your-Own-Adventure-AI](https://github.com/techwithtim/Choose-Your-Own-Adventure-AI)
