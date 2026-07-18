@@ -38,4 +38,4 @@ uv run main.py
 npm install && npm run dev
 ```
 
-> Source code: [github.com/techwithtim/Choose-Your-Own-Adventure-AI](https://github.com/techwithtim/Choose-Your-Own-Adventure-AI)
+
