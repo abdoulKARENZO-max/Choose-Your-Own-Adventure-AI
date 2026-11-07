@@ -13,14 +13,7 @@ An interactive, AI-powered Choose Your Own Adventure application featuring a mod
 
 This document records the exact terminal commands and steps executed to set up the project environment on Windows (using Git Bash / UCRT64).
 
-### 1. Git Configuration
-Configure your global Git identity and credential manager:
-```bash
-git config --global user.name "abdoulKARENZO-max"
-git config --global user.email "mafunzoali@gmail.com"
-git config --global credential.helper manager
 
-```
 
 ### 2. Clone the Repository
 
