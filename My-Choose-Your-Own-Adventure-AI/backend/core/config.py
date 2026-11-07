@@ -11,7 +11,10 @@ class Settings(BaseSettings):
 
     ALLOWED_ORIGINS: str = ""
 
-    OPENAI_API_KEY: str
+    # LM Studio (OpenAI-compatible local server)
+    LM_STUDIO_BASE_URL: str = "http://127.0.0.1:1234/v1"
+    LM_STUDIO_API_KEY: str = "lm-studio"
+    LM_STUDIO_MODEL: str = "qwen2.5-coder-1.5b-instruct"
 
     def __init__(self, **values):
         super().__init__(**values)
