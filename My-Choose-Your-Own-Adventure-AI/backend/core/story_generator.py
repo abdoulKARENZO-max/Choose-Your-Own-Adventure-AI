@@ -11,7 +11,7 @@ class StoryGenerator:
         return ChatOpenAI(
             base_url=os.getenv("LM_STUDIO_BASE_URL", "http://127.0.0.1:1234/v1"),
             api_key=os.getenv("LM_STUDIO_API_KEY", "lm-studio"),
-            model=os.getenv("LM_STUDIO_MODEL", "qwen2.5-coder-1.5b-instruct"),
+            model=os.getenv("LM_STUDIO_MODEL", "qwen/qwen3-4b-2507"),
             temperature=0.3,
             max_tokens=2048,   # 256 from the README would cut your story JSON off mid-way
             timeout=300,       # small local models can be slow
